@@ -1,0 +1,11 @@
+.idea/
+.tmp/
+.vscode/
+.project/
+*.log
+*.sublime-*
+
+lib/
+node_modules/
+platforms/
+tmp/
