@@ -2,13 +2,10 @@
   xmlns="http://schemas.nativescript.org/tns.xsd"
   xmlns:drawer="nativescript-telerik-ui/sidedrawer"
   xmlns:widgets="shared/widgets"
-  xmlns:statusbar="nativescript-statusbar"
   loaded="loaded">
 
-  <statusbar:StatusBar ios:barStyle="light" />
-
   <page.actionBar>
-    <action-bar title="NativeScript">
+    <action-bar title="Nieuws">
       <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
       <action-bar.actionItems>
         <ios>
@@ -21,11 +18,10 @@
   <drawer:rad-side-drawer id="drawer">
     <drawer:rad-side-drawer.mainContent>
 
-      <!-- Home page contents -->
+      <!-- Nieuws page contents -->
       <stack-layout>
-        <image src="res://rch_logo" id="logo" tap="fun" height="100" margin="20 0 0 0" />
-        <label text="R.C.H. - Racing Club Heemstede" margin="20" horizontalAlignment="center" textWrap="true" />
-        <label text="Klik het logo voor wat fun." margin="20" horizontalAlignment="center" textWrap="true" />
+        <label textWrap="true" text="Nieuwsitem 1" />
+        <label textWrap="true" text="Nieuwsitem 2" />
       </stack-layout>
 
     </drawer:rad-side-drawer.mainContent>

@@ -1,21 +1,24 @@
 {
-    "name": "rch-app",
-    "version": "0.0.1",
-    "description": "RCH - mobiele app",
-    "author": "Bas Zurburg - ICWS <bas.zurburg@xs4all.nl>",
-    "nativescript": {
-        "id": "org.nativescript.rchapp"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/baszurburg/rch-app-v1"
-    },
-    "bugs": {
-        "url": "https://github.com/baszurburg/rch-app-v1/issues"
-    },
-    "dependencies": {
-        "nativescript-statusbar": "^1.0.0",
-        "nativescript-telerik-ui": "^0.2.4",
-        "tns-core-modules": "1.7.0"
-    }
+	"name": "rch-app",
+	"version": "0.0.1",
+	"description": "RCH - mobiele app",
+	"author": "Bas Zurburg - ICWS <bas.zurburg@xs4all.nl>",
+	"nativescript": {
+		"id": "org.nativescript.rchapp",
+		"tns-android": {
+			"version": "1.7.0"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/baszurburg/rch-app-v1"
+	},
+	"bugs": {
+		"url": "https://github.com/baszurburg/rch-app-v1/issues"
+	},
+	"dependencies": {
+		"nativescript-statusbar": "^1.0.0",
+		"nativescript-telerik-ui": "^0.2.4",
+		"tns-core-modules": "1.7.0"
+	}
 }
